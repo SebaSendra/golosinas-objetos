@@ -3,7 +3,7 @@ import mariano.*
 
 describe "tests de mariano" {
 
-	fixture {
+	method initialize() {
 		chocolatin.pesoInicial(100)
 		mariano.comprar(chocolatin)
 		mariano.comprar(caramelo)
